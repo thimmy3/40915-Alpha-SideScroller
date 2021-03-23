@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class EnemyGunner : MonoBehaviour
 {
-    public Rigidbody2D fireBall;
-    public float fireBallSpeed = 8f;
+    public GameObject fireBall;
     public float startTimeBTWShots;
 
+    private Animator animator;
     private float timeBTWShots;    // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -19,8 +19,11 @@ public class EnemyGunner : MonoBehaviour
     {
         if (timeBTWShots <= 0)
         {
-            Instantiate(fireBall, transform.position, Quaternion.identity);
-            timeBTWShots = startTimeBTWShots;
+            Vector2 pos = transform.position;
+            pos.x -= 0.5f;
+            animator.SetTrigger("Attack");
+            Instantiate(fireBall, pos, Quaternion.identity);
+            timeBTWShots = startTimeBTWShots + Random.Range(-1f, 1f);
             
         }
         else
