@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7528376125117527062}
   - component: {fileID: 6984004684902972787}
-  - component: {fileID: 2944420473410156059}
   - component: {fileID: 236574484030389122}
   - component: {fileID: 3087336467404516443}
+  - component: {fileID: 6388896114804746329}
   m_Layer: 0
   m_Name: GrobblinsTurret
   m_TagString: Grobblin
@@ -85,22 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!111 &2944420473410156059
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9007119499729363429}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 387a576aadc7a284a9ac4e378ec9e2f4, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 387a576aadc7a284a9ac4e378ec9e2f4, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!58 &236574484030389122
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -130,3 +114,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!95 &6388896114804746329
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9007119499729363429}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2953b183f1976d94ea5bf85145a58de3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

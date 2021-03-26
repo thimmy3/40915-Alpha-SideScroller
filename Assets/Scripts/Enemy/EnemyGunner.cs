@@ -11,6 +11,7 @@ public class EnemyGunner : MonoBehaviour
     private float timeBTWShots;    // Start is called before the first frame update
     void Start()
     {
+        timeBTWShots = 2 + Random.Range(-1f, 1f);
         animator = GetComponent<Animator>();
     }
 

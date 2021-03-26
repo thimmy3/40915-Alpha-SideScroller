@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace CodysCode
 {
@@ -14,6 +15,8 @@ namespace CodysCode
         public Rigidbody2D rigid2D;
         public Animator animator;
         public PlayerAttack playerAttack;
+        public Text grobblinCounter;
+        public Button restartButton;
         // Start is called before the first frame update
         void Start()
         {
@@ -35,6 +38,7 @@ namespace CodysCode
             {
                 Time.timeScale = 0;
                 Debug.Log("GAME OVER");
+                restartButton.gameObject.SetActive(true);
             }
         }
 
@@ -42,12 +46,12 @@ namespace CodysCode
         {
             if (collision.gameObject.CompareTag("Grobblin"))
             {
-                if (collision.gameObject.name == "GrobblinsGold")
+                if (collision.gameObject.name.Contains("GrobblinsGold"))
                     playerAttack.DisplaySpecialPower(1);
                 else
                     playerAttack.DisplaySpecialPower(playerAttack.specialPower + 0.2f);
-
                 grobblinsKilled++;
+                grobblinCounter.text = grobblinsKilled + " Groblins";
                 Destroy(collision.gameObject);
             }
         }
