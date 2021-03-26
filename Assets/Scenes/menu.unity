@@ -2814,7 +2814,7 @@ MonoBehaviour:
       - m_Target: {fileID: 4854330979158625128}
         m_TargetAssemblyTypeName: CodysCode.MenuHandler, Assembly-CSharp
         m_MethodName: SetResolution
-        m_Mode: 3
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
