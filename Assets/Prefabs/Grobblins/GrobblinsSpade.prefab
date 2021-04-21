@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5502059477480583740}
   - component: {fileID: 7374335330942706893}
   - component: {fileID: -2214775316482026128}
-  - component: {fileID: -4085547369762162169}
+  - component: {fileID: 4939181786205446832}
   m_Layer: 0
   m_Name: GrobblinsSpade
   m_TagString: Grobblin
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!95 &-4085547369762162169
+--- !u!95 &4939181786205446832
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 1399695347410705546}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 775b8365b2995084a8a04fdf92ad4a5d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

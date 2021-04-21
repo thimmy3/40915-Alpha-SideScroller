@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 409391974204226923}
   - component: {fileID: 1243253677558638087}
   - component: {fileID: -4135087802733698172}
-  - component: {fileID: -5768193408849536925}
+  - component: {fileID: 486779308792533374}
   m_Layer: 0
   m_Name: GrobblinsBruiser
   m_TagString: Grobblin
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!95 &-5768193408849536925
+--- !u!95 &486779308792533374
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 6099578012034586485}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a1e38d13d15934a4fb0f85ba4173ee62, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

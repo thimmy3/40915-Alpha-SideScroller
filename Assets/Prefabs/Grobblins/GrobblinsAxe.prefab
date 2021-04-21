@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3243958583244524981}
   - component: {fileID: 950020019318956313}
   - component: {fileID: -462254603717565561}
-  - component: {fileID: -5129679930750588230}
+  - component: {fileID: -7280065669016053633}
   m_Layer: 0
   m_Name: GrobblinsAxe
   m_TagString: Grobblin
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!95 &-5129679930750588230
+--- !u!95 &-7280065669016053633
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 4811221332066308201}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 22a4b2920cbdd444f8ea91ae1ddba34e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

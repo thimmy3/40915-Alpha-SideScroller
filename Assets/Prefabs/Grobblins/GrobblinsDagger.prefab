@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5678381485876981532}
   - component: {fileID: 501841968666610577}
   - component: {fileID: -6337976764339534941}
-  - component: {fileID: -2956309009869549396}
+  - component: {fileID: -7463484150403714268}
   m_Layer: 0
   m_Name: GrobblinsDagger
   m_TagString: Grobblin
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!95 &-2956309009869549396
+--- !u!95 &-7463484150403714268
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 4549687402268469943}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3ae1affcb27441845bb92bdcb41fea7c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

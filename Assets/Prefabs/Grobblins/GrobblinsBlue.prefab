@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6285653882903029881}
   - component: {fileID: 3375392253950641756}
   - component: {fileID: 141596161216228012}
-  - component: {fileID: 7622707649754144180}
+  - component: {fileID: -6939388410713637532}
   m_Layer: 0
   m_Name: GrobblinsBlue
   m_TagString: Grobblin
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!95 &7622707649754144180
+--- !u!95 &-6939388410713637532
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 6180263808823590125}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 08d69dd321ac25d4db543b42776305fc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

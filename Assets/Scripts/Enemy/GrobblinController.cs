@@ -17,7 +17,7 @@ public class GrobblinController : MonoBehaviour
     private void Update()
     {
         timeAlive -= Time.deltaTime;
-        transform.position = new Vector2(startX + timeAlive, Mathf.Sin(timeAlive) + 1);
+        transform.position = new Vector2(startX + timeAlive, Mathf.Sin(timeAlive) + 0.75f);
         if (transform.position.x < -5)
             Destroy(gameObject);
     }

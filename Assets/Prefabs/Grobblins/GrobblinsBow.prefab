@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5688891281291568609}
   - component: {fileID: 8770843417649100069}
   - component: {fileID: -6584307211548733077}
-  - component: {fileID: 8727530072841207285}
+  - component: {fileID: 8101892920478944450}
   m_Layer: 0
   m_Name: GrobblinsBow
   m_TagString: Grobblin
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!95 &8727530072841207285
+--- !u!95 &8101892920478944450
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 6892752067072749844}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e57a2fb7b04f2704fb404c4987b4374f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

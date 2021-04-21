@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4496286892681913951}
   - component: {fileID: 972728609177367146}
   - component: {fileID: 7374834142063393776}
-  - component: {fileID: 4090620569732783505}
+  - component: {fileID: 4890009192615933257}
   m_Layer: 0
   m_Name: GrobblinsCultist
   m_TagString: Grobblin
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!95 &4090620569732783505
+--- !u!95 &4890009192615933257
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 5031323201047987966}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 38ab4215e02ce0d46a98481f5530b4b8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

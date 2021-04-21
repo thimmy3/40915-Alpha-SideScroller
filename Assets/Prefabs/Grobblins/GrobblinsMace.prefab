@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7531096122231865394}
   - component: {fileID: 3673162328257009040}
   - component: {fileID: 2735359482516814923}
-  - component: {fileID: -5647522980787486100}
+  - component: {fileID: 7256493102667654127}
   m_Layer: 0
   m_Name: GrobblinsMace
   m_TagString: Grobblin
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!95 &-5647522980787486100
+--- !u!95 &7256493102667654127
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 458971664641679160}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ff6d20e839879af4ea9d137e84532252, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

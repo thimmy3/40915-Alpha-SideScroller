@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6984004684902972787}
   - component: {fileID: 236574484030389122}
   - component: {fileID: 3087336467404516443}
-  - component: {fileID: -9172371190598385182}
+  - component: {fileID: 6388896114804746329}
   m_Layer: 0
   m_Name: GrobblinsTurret
   m_TagString: Grobblin
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!95 &-9172371190598385182
+--- !u!95 &6388896114804746329
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 9007119499729363429}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2953b183f1976d94ea5bf85145a58de3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

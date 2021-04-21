@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7738096133505759397}
   - component: {fileID: 495949630028733926}
   - component: {fileID: -2233758031896256318}
-  - component: {fileID: -7363820650778244390}
+  - component: {fileID: -959931410167849058}
   m_Layer: 0
   m_Name: GrobblinsMachete
   m_TagString: Grobblin
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!95 &-7363820650778244390
+--- !u!95 &-959931410167849058
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 7765595408359298210}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 41b6211a5abf72a43a81ed9954a4b75c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

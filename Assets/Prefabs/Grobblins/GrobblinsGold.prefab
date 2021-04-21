@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9132980126259984675}
   - component: {fileID: 8639981725736790756}
   - component: {fileID: 6131042294318729005}
-  - component: {fileID: -3621816213991256805}
+  - component: {fileID: 666300237189523584}
   m_Layer: 0
   m_Name: GrobblinsGold
   m_TagString: Grobblin
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!95 &-3621816213991256805
+--- !u!95 &666300237189523584
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 8220600329153837293}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 072a05911ed58b149ba0ec86030783ab, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
