@@ -1254,7 +1254,7 @@ PrefabInstance:
       objectReference: {fileID: 1243260289}
     - target: {fileID: 6716233401218325645, guid: 1ecf44b02705dcd478d67aa8346aa639, type: 3}
       propertyPath: specialPower
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7616286318713429855, guid: 1ecf44b02705dcd478d67aa8346aa639, type: 3}
       propertyPath: m_IsActive
@@ -1775,13 +1775,17 @@ PrefabInstance:
       propertyPath: powerBar
       value: 
       objectReference: {fileID: 1243260289}
+    - target: {fileID: 8306794690272007355, guid: 35c4aa835cd38d844ba4e680b04c2567, type: 3}
+      propertyPath: specialPower
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8306794690272007358, guid: 35c4aa835cd38d844ba4e680b04c2567, type: 3}
       propertyPath: m_Name
       value: Terra
       objectReference: {fileID: 0}
     - target: {fileID: 8306794690272007358, guid: 35c4aa835cd38d844ba4e680b04c2567, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}

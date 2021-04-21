@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 590996964376999235}
   - component: {fileID: 367406021870206179}
-  - component: {fileID: 1795747375229768842}
   - component: {fileID: 8786993922350975251}
   - component: {fileID: -8520541072661711606}
+  - component: {fileID: 6543799550834242803}
   m_Layer: 0
   m_Name: GrobblinsGreen
   m_TagString: Grobblin
@@ -85,22 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!111 &1795747375229768842
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2776416529717417353}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 3756561fbae94d44bb23e728d3887a53, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 3756561fbae94d44bb23e728d3887a53, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!58 &8786993922350975251
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -130,3 +114,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!95 &6543799550834242803
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2776416529717417353}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

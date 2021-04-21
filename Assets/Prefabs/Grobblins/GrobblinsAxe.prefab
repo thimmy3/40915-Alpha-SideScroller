@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 455773819622635751}
   - component: {fileID: 3243958583244524981}
-  - component: {fileID: 8344288447329534012}
   - component: {fileID: 950020019318956313}
   - component: {fileID: -462254603717565561}
+  - component: {fileID: -5129679930750588230}
   m_Layer: 0
   m_Name: GrobblinsAxe
   m_TagString: Grobblin
@@ -85,22 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!111 &8344288447329534012
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4811221332066308201}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: e8103cd38d647034eb1fb7bd95f48c61, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: e8103cd38d647034eb1fb7bd95f48c61, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!58 &950020019318956313
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -130,3 +114,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!95 &-5129679930750588230
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4811221332066308201}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

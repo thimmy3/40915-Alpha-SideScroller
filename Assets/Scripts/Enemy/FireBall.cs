@@ -11,8 +11,14 @@ public class FireBall : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        target = new Vector2(player.position.x, player.position.y);
+        GameObject playerGO = GameObject.FindGameObjectWithTag("Player");
+        if (playerGO != null)
+        {
+            player = playerGO.transform;
+            target = new Vector2(player.position.x, player.position.y);
+        }
+        else
+            DestroyProjectile();
     }
 
     // Update is called once per frame

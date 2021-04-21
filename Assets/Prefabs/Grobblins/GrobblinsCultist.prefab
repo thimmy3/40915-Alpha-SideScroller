@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3691519376221640180}
   - component: {fileID: 4496286892681913951}
-  - component: {fileID: 2493014759155122213}
   - component: {fileID: 972728609177367146}
   - component: {fileID: 7374834142063393776}
+  - component: {fileID: 4090620569732783505}
   m_Layer: 0
   m_Name: GrobblinsCultist
   m_TagString: Grobblin
@@ -85,22 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!111 &2493014759155122213
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5031323201047987966}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: c851f3a79d0c3014aa1696cf760e47ca, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: c851f3a79d0c3014aa1696cf760e47ca, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!58 &972728609177367146
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -130,3 +114,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!95 &4090620569732783505
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5031323201047987966}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
